@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" tests="1">
+<testcase classname="Free CRM Test with DataDriven Using Maps" name="Create DataDriven testing using Maps" time="71.381895">
+<system-out><![CDATA[Given Login to Free CRM...........................................................passed
+When Enter valid username and password...................................................passed
+Then Go to deals page , enter datails title , company, and salary......................................passed
+]]></system-out>
+</testcase>
+</testsuite>
