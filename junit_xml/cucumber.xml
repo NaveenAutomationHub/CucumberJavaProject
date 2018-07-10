@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" tests="1">
-<testcase classname="Free CRM Application testing" name="Closing test" time="0.077802">
-<system-out><![CDATA[Given This is to close the test.......................................................passed
+<testsuite failures="0" tests="3">
+<testcase classname="Test tagged hooks" name="This is a first test" time="0.073049">
+<system-out><![CDATA[Given this is a first step.........................................................passed
+When this is a second step.........................................................passed
+Then this is a third step..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test tagged hooks" name="This is a second test" time="0.000183">
+<system-out><![CDATA[Given this is a first step.........................................................passed
+When this is a second step.........................................................passed
+Then this is a third step..........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test tagged hooks" name="This is a third test" time="0.000648">
+<system-out><![CDATA[Given this is a first step.........................................................passed
+When this is a second step.........................................................passed
+Then this is a third step..........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
