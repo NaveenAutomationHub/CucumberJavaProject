@@ -1,21 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" tests="3">
-<testcase classname="Test tagged hooks" name="This is a first test" time="0.073049">
-<system-out><![CDATA[Given this is a first step.........................................................passed
-When this is a second step.........................................................passed
-Then this is a third step..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Test tagged hooks" name="This is a second test" time="0.000183">
-<system-out><![CDATA[Given this is a first step.........................................................passed
-When this is a second step.........................................................passed
-Then this is a third step..........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Test tagged hooks" name="This is a third test" time="0.000648">
-<system-out><![CDATA[Given this is a first step.........................................................passed
-When this is a second step.........................................................passed
-Then this is a third step..........................................................passed
+<testsuite failures="0" tests="1">
+<testcase classname="Free CRM ContactsPage Test" name="Create New Contacts under Contacts Page" time="10.758875">
+<system-out><![CDATA[Given Login to Free CRM...........................................................passed
+When Providing valid "naveendommata" and "Welcome@123"...........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

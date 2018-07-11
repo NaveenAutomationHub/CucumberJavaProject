@@ -1,159 +1,51 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features\\taggedHooks.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("features\\Login.feature");
 formatter.feature({
   "line": 1,
-  "name": "Test tagged hooks",
+  "name": "Free CRM ContactsPage Test",
   "description": "",
-  "id": "test-tagged-hooks",
+  "id": "free-crm-contactspage-test",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 4,
-  "name": "This is a first test",
+  "line": 3,
+  "name": "Create New Contacts under Contacts Page",
   "description": "",
-  "id": "test-tagged-hooks;this-is-a-first-test",
+  "id": "free-crm-contactspage-test;create-new-contacts-under-contacts-page",
   "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 3,
-      "name": "@First"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
   "line": 5,
-  "name": "this is a first step",
+  "name": "Login to Free CRM",
   "keyword": "Given "
 });
 formatter.step({
   "line": 6,
-  "name": "this is a second step",
+  "name": "Providing valid \"naveendommata\" and \"Welcome@123\"",
   "keyword": "When "
 });
-formatter.step({
-  "line": 7,
-  "name": "this is a third step",
-  "keyword": "Then "
-});
 formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_first_step()"
+  "location": "LoginTest.Login_to_Free_CRM()"
 });
 formatter.result({
-  "duration": 72960333,
+  "duration": 10010354394,
   "status": "passed"
 });
 formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_second_step()"
-});
-formatter.result({
-  "duration": 54855,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_third_step()"
-});
-formatter.result({
-  "duration": 33683,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "This is a second test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-a-second-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
+  "arguments": [
     {
-      "line": 9,
-      "name": "@Second"
-    }
-  ]
-});
-formatter.step({
-  "line": 11,
-  "name": "this is a first step",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 12,
-  "name": "this is a second step",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "this is a third step",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_first_step()"
-});
-formatter.result({
-  "duration": 39778,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_second_step()"
-});
-formatter.result({
-  "duration": 59987,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_third_step()"
-});
-formatter.result({
-  "duration": 82764,
-  "status": "passed"
-});
-formatter.scenario({
-  "line": 16,
-  "name": "This is a third test",
-  "description": "",
-  "id": "test-tagged-hooks;this-is-a-third-test",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
+      "val": "naveendommata",
+      "offset": 17
+    },
     {
-      "line": 15,
-      "name": "@Third"
+      "val": "Welcome@123",
+      "offset": 37
     }
-  ]
-});
-formatter.step({
-  "line": 17,
-  "name": "this is a first step",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 18,
-  "name": "this is a second step",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 19,
-  "name": "this is a third step",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_first_step()"
+  ],
+  "location": "LoginTest.Providing_valid_and(String,String)"
 });
 formatter.result({
-  "duration": 42343,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_second_step()"
-});
-formatter.result({
-  "duration": 29192,
-  "status": "passed"
-});
-formatter.match({
-  "location": "TaggedHooksStepDefination.this_is_a_third_step()"
-});
-formatter.result({
-  "duration": 576135,
+  "duration": 748520525,
   "status": "passed"
 });
 });
