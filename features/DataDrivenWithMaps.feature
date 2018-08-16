@@ -7,7 +7,7 @@ Scenario: Create DataDriven testing using Maps
  |username|password|
  |naveendommata|Welcome@123|
  Then Go to deals page , enter datails title , company, and salary
- |firstname|lastname|position|
+ |firstname|lastname|amount|
  |dealspage|CTS|50000|
  |newdealspage|WF|60000|
  |newdeal|CG|20000|

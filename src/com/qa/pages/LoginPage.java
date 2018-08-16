@@ -18,32 +18,29 @@ public class LoginPage extends TestBase{
 	@FindBy(xpath="//input[@type='submit']")
 	WebElement loginBtn;
 	
+	@FindBy(xpath="//*[@id='navbar-collapse']/ul/li[2]/a")
+	WebElement signUpBtn;
+	
 	public LoginPage(){
 		
 		PageFactory.initElements(driver, this);
-	}
-
-	
+	}	
 public String validateLoginPageTitle(){
 		
 		return driver.getTitle();
-	}
-	
-	public HomePage login(String un,String pwd){
-		
+	}	
+	public HomePage login(String un,String pwd){		
 		username.sendKeys(un);
 		password.sendKeys(pwd);
-		loginBtn.click();
-		
-		return new HomePage();
-		
-	}
-	
-	public String validateHomePageTitle(){
-		
-	return driver.getTitle();
-		
-		
+		loginBtn.click();		
+		return new HomePage();		
+	}	
+	public String validateHomePageTitle(){		
+	return driver.getTitle();		
+	}	
+	public SignUpPage gotoSignUpPage(){		
+		signUpBtn.click();
+		return new SignUpPage();
 	}
 
 }

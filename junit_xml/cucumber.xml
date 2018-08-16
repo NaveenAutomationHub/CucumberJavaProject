@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testsuite failures="0" tests="1">
-<testcase classname="Free CRM ContactsPage Test" name="Create New Contacts under Contacts Page" time="10.758875">
-<system-out><![CDATA[Given Login to Free CRM...........................................................passed
-When Providing valid "naveendommata" and "Welcome@123"...........................................passed
+<testcase classname="Free CRM SignUp Test" name="Validate Free CRM SignUp Page" time="25.403697">
+<system-out><![CDATA[Given User navigated to Free CRM Application................................................passed
+When Go to SignUp page...........................................................passed
+Then Enter all the mandatory details....................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -27,9 +27,9 @@
 //	}
 //
 //	@When("^Enter valid username and password$")
-//	public void Enter_valid_username_and_password(DataTable dealData) {
+//	public void Enter_valid_username_and_password(DataTable loginData) {
 //
-//	for(Map<String, String> data: dealData.asMaps()){
+//	for(Map<String, String> data: loginData.asMaps()){
 //		
 //		driver.findElement(By.xpath("//*[@id='loginForm']/div/input[1]")).sendKeys(data.get("username"));
 //		driver.findElement(By.xpath("//*[@id='loginForm']/div/input[2]")).sendKeys(data.get("password"));
@@ -53,7 +53,7 @@
 //
 //		driver.findElement(By.xpath("//*[@id='title']")).sendKeys(data.get("firstname"));
 //		driver.findElement(By.xpath("//input[@name='client_lookup']")).sendKeys(data.get("lastname"));
-//		driver.findElement(By.xpath("//*[@id='amount']")).sendKeys(data.get("position"));
+//		driver.findElement(By.xpath("//*[@id='amount']")).sendKeys(data.get("amount"));
 //		driver.findElement(By.xpath("//*[@id='prospectForm']/table/tbody/tr[1]/td/input[1]")).click();
 //		Thread.sleep(3000);
 //		

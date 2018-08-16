@@ -1,8 +1,9 @@
 package com.qa.pages;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+
 
 import com.qa.util.TestBase;
 public class HomePage extends TestBase{
@@ -10,9 +11,6 @@ public class HomePage extends TestBase{
 	///td[contains(text(),'User: naveen reddy')]
 	@FindBy(xpath="html/body/table[1]/tbody/tr[1]/td/table/tbody/tr/td[1]")
 	public WebElement nameLabel;
-	
-	@FindBy(xpath="(//*[contains(text(),'Contacts')])[1]")
-	public WebElement contactsLink;
 	
 	
 	@FindBy(xpath="(//*[contains(text(),'Tasks')])[1]")
@@ -45,35 +43,35 @@ public class HomePage extends TestBase{
 	@FindBy(xpath="//*[@id='navmenu']/ul/li[15]/a")
 	public WebElement reportLink;
 	
-	@FindBy(xpath="//*[@id='navmenu']/ul/li[3]/a")
-	public WebElement comapnieslink;
+	@FindBy(xpath="//*[contains(text(),'Contacts')]")
+	public WebElement contactsLink1;
 	
-	@FindBy(xpath="//*[@id='navmenu']/ul/li[3]/ul/li[2]/a")
-	public WebElement combinedForm;
+	@FindBy(xpath="//*[@id='navmenu']/ul/li[4]/ul/li[2]/a")
+	public WebElement contactCombinedForm;
 	
-	@FindBy(xpath="//*[@id='navmenu']/ul/li[3]/ul/li[3]/a")
-	public WebElement fullForm;
-	
-	
-   public HomePage(){
+	@FindBy(xpath="//*[contains(text(),'Campaigns')]/ancestor::ul/li[1]/a[@title='Email Campaigns']")
+	public WebElement campaignLink;
 		
+   public HomePage(){
 		PageFactory.initElements(driver, this);
 	}
    
    public String verifyHomePageTitle(){
-	   
-	   return driver.getTitle();
-	   
+	   return driver.getTitle(); 
    }
-   
    public boolean verifyUserName(){
 	   
 	   driver.switchTo().frame("mainpanel");
 	   
-	   return nameLabel.isDisplayed();
-	   
-	   
+	   return nameLabel.isDisplayed();   
    }
-   
+   public ContactsCombinedForm gotoCombinedForm() throws InterruptedException {
+	   
+	   Actions actions = new Actions(driver);
+		actions.moveToElement(contactsLink1).build().perform();
+		Thread.sleep(5000);
+		actions.moveToElement(contactCombinedForm).click().build().perform();
+		return new ContactsCombinedForm();
+   }
  
 }

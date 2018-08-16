@@ -13,6 +13,4 @@ monochrome=true
 )
 public class TaggedHooksRunner {
 	
-	
-
 }

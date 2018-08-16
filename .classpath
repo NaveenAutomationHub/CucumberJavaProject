@@ -2,15 +2,6 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cobertura-2.1.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cucumber-core-1.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cucumber-java-1.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cucumber-junit-1.1.2.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cucumber-jvm-deps-1.0.3.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/cucumber-reporting-0.1.0.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/gherkin-2.12.1.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/junit-4.11.jar"/>
-	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/VM WARE files/IMP Files/Cucumber Jars/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/.m2/repository/org/testng/testng/6.13.1/testng-6.13.1.jar"/>
 	<classpathentry kind="lib" path="libs/apache-mime4j-0.6.jar"/>
 	<classpathentry kind="lib" path="libs/bsh-2.0b4.jar"/>
@@ -35,5 +26,14 @@
 	<classpathentry kind="lib" path="libs/selenium-java-2.53.1-srcs.jar"/>
 	<classpathentry kind="lib" path="libs/selenium-java-2.53.1.jar"/>
 	<classpathentry kind="lib" path="libs/testng-6.9.9.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cobertura-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cucumber-core-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cucumber-java-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cucumber-junit-1.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cucumber-jvm-deps-1.0.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/cucumber-reporting-0.1.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/gherkin-2.12.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Naveen.Dommata/Desktop/Cucumber_Jars-20180705T080755Z-001/Cucumber_Jars/mockito-all-2.0.2-beta.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

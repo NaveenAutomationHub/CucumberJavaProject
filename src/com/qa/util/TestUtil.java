@@ -1,8 +1,8 @@
 package com.qa.util;
 
-public class TestUtil {
+public class TestUtil extends TestBase{
 	
-	static int PAGE_LOAD_TIMOUT =10;
-	static int IMPLICIT_WAIT= 10;
+	public static int PAGE_LOAD_TIMOUT =10;
+	public static int IMPLICIT_WAIT= 10;
 
 }

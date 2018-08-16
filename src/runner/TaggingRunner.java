@@ -20,7 +20,7 @@ public class TaggingRunner {
 
 
 
-// ORed : tags ={"@SmokeTest , @End2EndTest" } execute all test cases tagged as @SmokeTest and @End2EndTest
+// ORed : tags ={"@SmokeTest , @End2EndTest" } execute all test cases tagged as @SmokeTest, @End2EndTest
 
 //ANDed : tags ={"@SmokeTest" , "@End2EndTest" } execute all test cases tagged as @SmokeTest and @End2EndTest
 
