@@ -33,21 +33,21 @@ formatter.match({
   "location": "SignUpTest.User_navigated_to_Free_CRM_Application()"
 });
 formatter.result({
-  "duration": 17354569498,
+  "duration": 14666872612,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpTest.Go_to_SignUp_page()"
 });
 formatter.result({
-  "duration": 2037726908,
+  "duration": 1050271642,
   "status": "passed"
 });
 formatter.match({
   "location": "SignUpTest.Enter_all_the_mandatory_details()"
 });
 formatter.result({
-  "duration": 6011400484,
+  "duration": 7038964190,
   "status": "passed"
 });
 });

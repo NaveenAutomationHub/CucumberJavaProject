@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <testsuite failures="0" tests="1">
-<testcase classname="Free CRM SignUp Test" name="Validate Free CRM SignUp Page" time="25.403697">
+<testcase classname="Free CRM SignUp Test" name="Validate Free CRM SignUp Page" time="22.756108">
 <system-out><![CDATA[Given User navigated to Free CRM Application................................................passed
 When Go to SignUp page...........................................................passed
 Then Enter all the mandatory details....................................................passed

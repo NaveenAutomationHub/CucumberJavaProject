@@ -22,7 +22,7 @@ public class SignUpTest extends TestBase{
 	public void Go_to_SignUp_page() {
 		
 	 loginpage = new LoginPage();
-	 signUpPage =  loginpage.gotoSignUpPage();
+	 loginpage.gotoSignUpPage();
 	    
 	}
 
